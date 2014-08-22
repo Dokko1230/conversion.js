@@ -1,0 +1,48 @@
+body {
+	font-size: 62.5%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	margin-top: 2.5em;
+	width: 75em;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float:right;
+}
+
+h1, h2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+.equals {
+	display:inline;
+	font-size: 3em;
+	padding: 1.3em;
+	text-align: center;
+}
+
+input {
+	width: 40%;
+	text-align: center;
+	font-size: 2em;
+	padding: 0.5em;
+
+}
+
+@media (max-width: 75em) {
+	.container {
+		width: 100%;
+	}
+}
